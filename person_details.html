@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         class person{
+            constructor(firstname,lastname,education,age,mar_st,profession){
+                this.firstname=firstname;
+                this.lastname=lastname;
+                this.education=education;
+                this.age=age;
+                this.mar_st=mar_st;
+                this.work=profession;
+            }
+            Details(){
+                console.log(`Name : ${this.firstname} ${this.lastname}
+age:    ${this.age}
+Educational qualification : ${this.education}
+Marital status : ${this.mar_st}
+profession : ${this.work}`);
+                        }
+                    }
+                    const person1=new person("hepzi","john",23,"Msc cs","unmarried","IT");
+                    const person2=new person("shanthi","john",30,"Bsc physics","married","teacher")
+                    const person3=new person("mary","william",26,"Msc cs","unmarried","IT");
+                    const person4=new person("stephen","raj",23,"bca","unmarried","project manager");
+                    person1.Details();
+                    person2.Details();
+                    person3.Details();
+                    person4.Details();
+         
+    </script>
+</body>
+</html>
